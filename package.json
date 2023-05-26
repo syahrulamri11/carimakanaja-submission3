@@ -12,7 +12,7 @@
     "e2e": "codeceptjs run --steps",
     "build-serve": "npm run build && npm run serve",
     "lint": "eslint ./src",
-    "build-final": "npm run build && build-image"
+    "build-final": "npm run build && npm run build-image"
   },
   "keywords": [],
   "author": "syahrul.amri@mhs.unram.ac.id",
