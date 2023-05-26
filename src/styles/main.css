@@ -1,0 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Mochiy+Pop+P+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%
+}
+
+body {
+    font-size: 12px;
+    color: #130f0f
+}
+
+.mobilemenu {
+    background-color: #37d73d;
+    color: rgb(251, 244, 244);
+    width: 100%;
+    display: flex;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 10px;
+    justify-content: space-between
+}
+
+.mobilenav {
+    background-color: #37d73d;
+    width: 100%;
+    display: flex;
+    font-weight: 600;
+    font-size: 44px;
+    text-transform: uppercase;
+    zoom: 70%;
+}
+
+.mobilenavlist {
+    width: 60%;
+    padding: 0;
+    margin: 0;
+    text-align: left
+}
+
+.mobilenavlist li:hover {
+    background-color: #f3e853ad;
+}
+
+.mobilenavitem {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: right;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: white
+}
+
+.iconmenu a {
+    text-decoration: none;
+    color: white
+}
+
+.mobilenav a {
+    display: inline-block;
+    padding: 1.2em;
+    text-decoration: none
+}
+
+.nav {
+    background-color: #37d73d;
+    width: 100%;
+    display: flex;
+    font-weight: 600;
+    font-size: 44px;
+    zoom: 50%;
+}
+
+.navlist {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.navlist li:hover {
+    background-color: #f3e853ad;
+}
+
+nav .logo {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: #4122b3;
+    font-size: 44px;
+    text-shadow: 1px 1px 1px #395620;
+    transition: transform 0.1s ease-in-out;
+    text-transform: capitalize;
+}
+
+nav .logo:hover {
+    transform: skewY(-5deg) rotateZ(5deg) scale(1.2);
+}
+
+.logo {
+    width: 22%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 25px;
+}
+
+.navitem {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: right;
+    line-height: 25px;
+    text-transform: uppercase
+}
+
+.nav a {
+    display: inline-block;
+    padding: 1.3em;
+    text-decoration: none;
+    color: white 
+}
+
+.nav a:hover {
+    text-decoration: none
+}
+
+.hero {
+  width: 100%;
+  height: 35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero__img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.hero__img img {
+  object-fit: cover;
+  width: 100%;
+  height: 35rem;
+}
+
+.hero__content {
+  width: 85%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 2rem;
+  border-radius: 2rem;
+  color: var(--green);
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+}
+
+.hero__title {
+  color: white;
+  border-radius: 2rem;
+  font-size: 3rem;
+}
+
+.hero__title span:first-child {
+  color: var(--green);
+}
+
+.hero__title span:last-child {
+  color: var(--orange);
+}
+
+.hero__description {
+  color: white;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+  line-height: 1.8;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto
+}
+
+.content {
+    padding: 34px
+}
+
+.latest {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center
+}
+
+.latest h1 {
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 50px
+}
+
+.list {
+    margin: 32px auto auto;
+    text-align: left;
+    display: grid;
+    grid-row-gap: 16px
+}
+
+.list_item {
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative
+}
+
+.city {
+    position: absolute;
+    top: 9px;
+    left: 18px;
+    border-radius: 5px;
+    background-color: #37d73d;
+    padding: 5px 10px 5px;
+    color: white;
+    font-weight: 500
+}
+
+.list_item_content {
+    padding: 16px;
+    zoom: 80%;
+}
+
+.list_item_thumb {
+    width: 100%;
+    max-height: 280px
+}
+
+.list_item_rating {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #322f3f;
+    font-weight: 500
+}
+
+.list_item_rating_value {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.list_item_title {
+    font-weight: 500;
+    font-size: 44px;
+    margin-top: 10px;
+    transition: 0.3s opacity
+}
+
+.list_item_title:hover {
+    opacity: 0.6
+}
+
+.list_item_title a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 44px;
+}
+
+.list_item_desc {
+    margin-top: -30px;
+    font-size: 20px;
+    line-height: 1.5em
+}
+
+footer {
+    background-color: #37d73d;
+    padding: 50px 0;
+    font-size: 44px;
+    zoom: 70%;
+    font-weight: 900;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4 {
+    width: calc(98% / 3);
+    padding: 0 19px;
+    color: whitesmoke;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: rgb(48, 50, 47);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+ul li {
+    color: whitesmoke;
+}
+
+ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 44px;
+}
+
+.bottom-bar {
+    background-color: #7ff44d;
+    padding: 20px 0;
+}
+
+.bottom-bar p {
+    margin: 0;
+    text-align: center;
+    font-size: 26px;
+    color: rgb(48, 50, 47);
+}
+
+
+.skip-link {
+    position: absolute;
+    left: 0;
+    top: -100px;
+    background-color: #4717bf;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    z-index: 100;
+    text-decoration: none;
+    zoom: 70%;
+}
+
+.skip-link:focus {
+    top: 0px;
+}
+
+.rating-value {
+    color: rgb(255, 174, 0);
+}
+
+.latest h1 {
+    font-size: 40px;
+}
+
+.lists_items {
+    display: flex;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  }
+ 
+.lists_items_thumb {
+    width: 120px;
+    height: 90px;
+    margin-right: 16px;
+    object-fit: cover;
+}
+  
+  .city {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 8px;
+  }
+  
+  .lists_items_rating {
+    margin-bottom: 8px;
+  }
+  
+  .lists_items_rating_value {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff9800;
+    margin-right: 8px;
+  }
+  
+  .lists_items_title {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .lists_items_title a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .lists_items_desc {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .section-title {
+    text-align: center; 
+    font-size: 32px; 
+    color: #171515; 
+    margin-top: 50px;
+    margin-bottom: 30px; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    font-weight: bold; 
+  }
+
+  .restaurant-detail_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .restaurant-detail_header_poster {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0px auto;
+  }
+
+  .restaurant-detail_header_rating {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 8px;
+    color: #060606;
+    font-size: 18px;
+  }
+  
+  .restaurant-detail_header_rating_item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .restaurant-detail_header_rating_label {
+    font-weight: bold;
+    min-width: 80px;
+  }
+  
+  .restaurant-detail_header_rating_value {
+    flex: 1;
+    text-align: left;
+    text-shadow: 1px 1px #0f150d;
+  }
+  .restaurant-detail_content_title {
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+  
+  .restaurant-detail_content_description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 32px;
+  }
+  
+  .restaurant-detail_content h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .foods,
+  .drinks {
+    list-style: none;
+    margin-bottom: 16px;
+  }
+  
+  .foods li,
+  .drinks li {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+  
+   .food-item, .drink-item {
+    display: inline-block;
+    margin: 0 8px 8px 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 24px;
+    background-color: #81de7f;
+    color: #222222;
+  }
+
+  .restaurant-detail_content_review {
+    background-color: #fcfbf39a;
+    border-radius: 6px;
+    padding: 21px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .restaurant-detail_content_review h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0e0a0a;
+  }
+  
+  #customerReviews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .customer-review {
+    width: calc(50% - 10px);
+    padding: 20px;
+    border: 1px solid #8dd762bb;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .customer-review:hover {
+    background-color: #c6f28cd5;
+    cursor: pointer;
+  }
+
+  .customer-review__name {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #e2f20a;
+  }
+  .customer-review__date {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #090202;
+  }
+  .customer-review__text {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #070505;
+    line-height: 1.5;
+  }
+  .customer-review__text:last-child {
+    margin-bottom: 0;
+  }
+
+  .favorite {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #05ed1c;
+    
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 50%;
+    border: 0;
+    
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .burger-button{
+    background-color: #00000000;
+    border: none;
+    color: white;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 44px;
+  }
+
+  div.logomobile{
+    font-size: 44px;
+  }
+   
