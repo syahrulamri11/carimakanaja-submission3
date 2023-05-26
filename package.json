@@ -11,7 +11,8 @@
     "test": "karma start",
     "e2e": "codeceptjs run --steps",
     "build-serve": "npm run build && npm run serve",
-    "lint": "eslint ./src"
+    "lint": "eslint ./src",
+    "build-final": "npm run build && build-image"
   },
   "keywords": [],
   "author": "syahrul.amri@mhs.unram.ac.id",
