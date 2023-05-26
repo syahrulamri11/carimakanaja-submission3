@@ -5,7 +5,6 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ImageminWebpackPlugin = require('imagemin-webpack-plugin').default;
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const ImageminMozjpeg = require('imagemin-mozjpeg');
 
 module.exports = {
@@ -82,6 +81,5 @@ module.exports = {
       ],
       overrideExtension: true,
     }),
-    new BundleAnalyzerPlugin(),
   ],
 };
